@@ -1,0 +1,166 @@
+/* MERIDIAN 7 — palettes.
+   Every theme defines the same token set. Nothing else in the system
+   may hardcode a color. */
+
+:root,
+:root[data-theme="oyster"] {
+  --ink:            #17150f;
+  --text:           #17150f;
+  --text-dim:       #5c584c;
+  --chrome:         #c6c2b6;
+  --chrome-lighter: #ffffff;
+  --chrome-light:   #e4e0d4;
+  --chrome-dark:    #8b8779;
+  --chrome-darker:  #4a473f;
+  --desktop:        #5a6b7b;
+  --desktop-alt:    #4a5a6a;
+  --title-a1:       #6e2b23;
+  --title-a2:       #8c3a2d;
+  --title-text:     #f6efe2;
+  --title-i:        #a19c8e;
+  --title-i-text:   #5d594e;
+  --accent:         #b4532a;
+  --accent-text:    #fff6ec;
+  --field:          #f2efe4;
+  --field-ink:      #17150f;
+  --sel:            #6e2b23;
+  --sel-text:       #f6efe2;
+  --term-bg:        #1b1a16;
+  --term-ink:       #d8cfae;
+  --shadow:         rgba(23,21,15,.40);
+}
+
+:root[data-theme="graphite"] {
+  --ink:            #101418;
+  --text:           #101418;
+  --text-dim:       #4e545b;
+  --chrome:         #b3b8bd;
+  --chrome-lighter: #ffffff;
+  --chrome-light:   #d7dbdf;
+  --chrome-dark:    #7c828a;
+  --chrome-darker:  #3d434a;
+  --desktop:        #3f4a55;
+  --desktop-alt:    #333c46;
+  --title-a1:       #1f3d5c;
+  --title-a2:       #34618c;
+  --title-text:     #eef4fa;
+  --title-i:        #949aa1;
+  --title-i-text:   #545a61;
+  --accent:         #2f6fa8;
+  --accent-text:    #f2f8ff;
+  --field:          #eef1f4;
+  --field-ink:      #101418;
+  --sel:            #1f3d5c;
+  --sel-text:       #eef4fa;
+  --term-bg:        #12171c;
+  --term-ink:       #b9c8d6;
+  --shadow:         rgba(16,20,24,.45);
+}
+
+:root[data-theme="ferro"] {
+  --ink:            #1c1310;
+  --text:           #1c1310;
+  --text-dim:       #5d4f45;
+  --chrome:         #bfae9c;
+  --chrome-lighter: #fff6ec;
+  --chrome-light:   #dccbb8;
+  --chrome-dark:    #8a7869;
+  --chrome-darker:  #4b3b31;
+  --desktop:        #7a4a34;
+  --desktop-alt:    #653b28;
+  --title-a1:       #33261f;
+  --title-a2:       #5c463a;
+  --title-text:     #f7e6d2;
+  --title-i:        #9d8d7e;
+  --title-i-text:   #574a40;
+  --accent:         #c2551d;
+  --accent-text:    #fff3e8;
+  --field:          #f5ece0;
+  --field-ink:      #1c1310;
+  --sel:            #c2551d;
+  --sel-text:       #fff3e8;
+  --term-bg:        #1d1410;
+  --term-ink:       #e8b489;
+  --shadow:         rgba(28,19,16,.45);
+}
+
+:root[data-theme="blueprint"] {
+  --ink:            #0a1830;
+  --text:           #0a1830;
+  --text-dim:       #3d5170;
+  --chrome:         #9fb2cc;
+  --chrome-lighter: #eaf2ff;
+  --chrome-light:   #c3d2e8;
+  --chrome-dark:    #6a7f9d;
+  --chrome-darker:  #2a3d5c;
+  --desktop:        #10315e;
+  --desktop-alt:    #0b2447;
+  --title-a1:       #0a2a52;
+  --title-a2:       #17497f;
+  --title-text:     #cfe6ff;
+  --title-i:        #8296b0;
+  --title-i-text:   #445872;
+  --accent:         #2ea3c8;
+  --accent-text:    #04202c;
+  --field:          #e6f0fb;
+  --field-ink:      #0a1830;
+  --sel:            #17497f;
+  --sel-text:       #d9ecff;
+  --term-bg:        #071a33;
+  --term-ink:       #7fd6f0;
+  --shadow:         rgba(10,24,48,.5);
+}
+
+:root[data-theme="phosphor"] {
+  --ink:            #04140a;
+  --text:           #8ff0a4;
+  --text-dim:       #5aa96b;
+  --chrome:         #1d3323;
+  --chrome-lighter: #6fd88a;
+  --chrome-light:   #315a3d;
+  --chrome-dark:    #12241a;
+  --chrome-darker:  #030d07;
+  --desktop:        #061a0d;
+  --desktop-alt:    #04120a;
+  --title-a1:       #17451f;
+  --title-a2:       #2b6b36;
+  --title-text:     #a8f7b8;
+  --title-i:        #16301c;
+  --title-i-text:   #5d8e68;
+  --accent:         #4dff7a;
+  --accent-text:    #032008;
+  --field:          #08210f;
+  --field-ink:      #7dfb9c;
+  --sel:            #2b6b36;
+  --sel-text:       #ccffd8;
+  --term-bg:        #04140a;
+  --term-ink:       #5cf87e;
+  --shadow:         rgba(0,0,0,.6);
+}
+
+:root[data-theme="amber"] {
+  --ink:            #1a0f02;
+  --text:           #ffcf7a;
+  --text-dim:       #c08a34;
+  --chrome:         #3a2508;
+  --chrome-lighter: #f0b44b;
+  --chrome-light:   #6b4611;
+  --chrome-dark:    #241705;
+  --chrome-darker:  #0d0801;
+  --desktop:        #1c1002;
+  --desktop-alt:    #150c02;
+  --title-a1:       #5a3a09;
+  --title-a2:       #8a5a10;
+  --title-text:     #ffd894;
+  --title-i:        #33210a;
+  --title-i-text:   #9a7130;
+  --accent:         #ffab1f;
+  --accent-text:    #2a1802;
+  --field:          #221503;
+  --field-ink:      #ffc35a;
+  --sel:            #8a5a10;
+  --sel-text:       #ffe9bd;
+  --term-bg:        #180d01;
+  --term-ink:       #ffb02e;
+  --shadow:         rgba(0,0,0,.6);
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="oyster">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian 7</title>
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/system.css">
+<link rel="stylesheet" href="css/apps.css">
+</head>
+<body class="powered-off">
+
+  <!-- ============ POWER SCREEN ============ -->
+  <div id="power-screen">
+    <div class="pw-monitor">
+      <div class="pw-screen"><div class="pw-glass"></div></div>
+      <div class="pw-chin">
+        <div class="pw-badge">MERIDIAN&nbsp;SYSTEMS</div>
+        <button id="power-button" title="Power on">
+          <span class="pw-glyph"></span>
+        </button>
+        <div class="pw-model">MS-7</div>
+      </div>
+    </div>
+    <p class="pw-hint">PRESS THE POWER BUTTON</p>
+  </div>
+
+  <!-- ============ BOOT ============ -->
+  <div id="boot" hidden>
+    <pre id="post"></pre>
+    <div id="splash" hidden>
+      <div class="splash-box">
+        <div class="splash-logo" id="splash-logo"></div>
+        <div class="splash-name">Meridian&nbsp;7</div>
+        <div class="splash-sub">Workstation System Software · Version 7.0.2</div>
+        <div class="splash-bar"><i id="splash-fill"></i></div>
+        <div class="splash-status" id="splash-status">Starting up&hellip;</div>
+        <div class="splash-exts" id="splash-exts"></div>
+      </div>
+      <div class="splash-copy">&copy; 1989&ndash;1993 Meridian Systems Inc. &nbsp;All rights reserved.</div>
+    </div>
+  </div>
+
+  <!-- ============ SYSTEM ============ -->
+  <div id="system" hidden>
+
+    <div id="menubar">
+      <div class="mb-left">
+        <button class="mb-item mb-logo" data-menu="system"><span class="mb-mark"></span></button>
+        <button class="mb-item" data-menu="programs">Programs</button>
+        <button class="mb-item" data-menu="view">View</button>
+        <button class="mb-item" data-menu="special">Special</button>
+      </div>
+      <div class="mb-right">
+        <div class="mb-stat" id="mb-mem" title="Memory in use">&mdash;</div>
+        <button class="mb-tray" id="mb-sound" title="Sound"></button>
+        <div class="mb-clock" id="mb-clock">&mdash;&mdash;</div>
+      </div>
+    </div>
+
+    <div id="desktop">
+      <div id="icon-layer"></div>
+      <div id="window-layer"></div>
+      <div id="marquee" hidden></div>
+    </div>
+
+    <div id="taskbar">
+      <div class="tb-tasks" id="tb-tasks"></div>
+      <div class="tb-right">
+        <button class="tb-btn" id="tb-saver" title="Start screen saver">Lock</button>
+        <div class="tb-vol">
+          <span class="tb-vol-label">VOL</span>
+          <input type="range" id="tb-vol" min="0" max="100" step="5" title="Master volume">
+        </div>
+      </div>
+    </div>
+
+    <div id="menu-layer"></div>
+    <div id="dialog-layer"></div>
+  </div>
+
+  <!-- ============ SCREENSAVER ============ -->
+  <canvas id="screensaver" hidden></canvas>
+
+  <!-- ============ SHUTDOWN ============ -->
+  <div id="shutdown" hidden>
+    <div class="sd-box">
+      <div class="sd-title">Meridian 7</div>
+      <p id="sd-msg">Shutting down&hellip;</p>
+      <button id="sd-restart" hidden>Restart</button>
+    </div>
+  </div>
+
+  <div id="crt" aria-hidden="true"><span class="crt-lines"></span><span class="crt-vignette"></span><span class="crt-flicker"></span></div>
+
+  <script src="js/core/util.js"></script>
+  <script src="js/core/store.js"></script>
+  <script src="js/core/audio.js"></script>
+  <script src="js/core/icons.js"></script>
+  <script src="js/core/theme.js"></script>
+  <script src="js/core/vfs.js"></script>
+  <script src="js/core/wm.js"></script>
+  <script src="js/core/dialog.js"></script>
+  <script src="js/core/menubar.js"></script>
+  <script src="js/core/desktop.js"></script>
+  <script src="js/core/screensaver.js"></script>
+  <script src="js/apps/terminal.js"></script>
+  <script src="js/apps/files.js"></script>
+  <script src="js/apps/notes.js"></script>
+  <script src="js/apps/paint.js"></script>
+  <script src="js/apps/viewer.js"></script>
+  <script src="js/apps/calculator.js"></script>
+  <script src="js/apps/sweeper.js"></script>
+  <script src="js/apps/tapedeck.js"></script>
+  <script src="js/apps/control.js"></script>
+  <script src="js/apps/sysinfo.js"></script>
+  <script src="js/apps/handbook.js"></script>
+  <script src="js/core/boot.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
