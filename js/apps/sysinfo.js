@@ -48,7 +48,7 @@
 
     win = M7.wm.open({
       app: 'sysinfo', title: 'About This Workstation', icon: 'logo',
-      w: 420, h: 460, minW: 340, minH: 300, singleton: true, status: true,
+      w: 424, h: 540, minW: 340, minH: 300, singleton: true, status: true,
       build: function (body) {
         body.appendChild(el('div', { class: 'si scroll' }, [
           el('div', { class: 'si-head' }, [
