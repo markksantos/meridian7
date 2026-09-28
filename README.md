@@ -126,6 +126,8 @@ Storage can reset preferences without touching your files, or erase the disk bac
 
 ## 🔧 How It Works
 
+> **Write-up:** [AudioContext was not allowed to start: make the click the UI](https://nosleeplab.com/notes/audiocontext-not-allowed-to-start-user-gesture) — why the power button is the first thing on screen.
+
 ```
 boot.js    power button → POST → splash → chime → desktop
                ↓
